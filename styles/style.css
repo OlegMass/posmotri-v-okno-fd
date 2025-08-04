@@ -56,6 +56,7 @@ ol {
   height: 386px;
   margin-bottom: 16px;
   object-fit: cover;
+  position: relative;
 }
 
 .result__video {
@@ -88,6 +89,7 @@ ol {
   flex-direction: column;
   gap: 30px;
   overflow-y: auto;
+  position: relative;
 }
 
 .content__list {
@@ -253,14 +255,11 @@ ol {
   line-height: 100%;
   letter-spacing: 0%;
   cursor: pointer;
+  outline: none;
 }
 
 .search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.7);
-}
-
-.search-form__textfield {
-  outline: none;
 }
 
 .search-form__textfield:focus {
@@ -350,12 +349,4 @@ ol {
 .button:focus-visible {
   outline: 1px solid rgba(255, 255, 255, 1);
   outline-offset: 1px;
-}
-
-.result__video-container {
-  position: relative;
-}
-
-.content__list-container {
-  position: relative;
 }
